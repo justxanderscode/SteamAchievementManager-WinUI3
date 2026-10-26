@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Company>Gibbed</Company>
+    <Authors>Gibbed; WinUI 3 version</Authors>
+    <Description>Steam interop of the Steam Achievement Manager (ported to .NET 10 and 64-bit).</Description>
+    <Copyright>Copyright © Gibbed 2019</Copyright>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Version>1.13.1</Version>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RepositoryUrl>https://github.com/gibbed/SteamAchievementManager/</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Platforms>x64</Platforms>
+    <PlatformTarget>x64</PlatformTarget>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+  </PropertyGroup>
+</Project>

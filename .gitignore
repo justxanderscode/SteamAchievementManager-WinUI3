@@ -1,0 +1,9 @@
+# Build
+bin/
+obj/
+*.user
+.vs/
+
+# Version archive and finished packages (kept locally, not in the repo)
+releases/
+versions/

@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    Launcher in the program folder of the release: starts app\SAM.exe. This keeps the program files together with
+    WinUI's 86 language folders (which Windows only finds right next to Microsoft.UI.Xaml.dll) in the subfolder "app".
+    .NET Framework 4.8 is always present from Windows 10 2004 on - the launcher needs no runtime of its own.
+  -->
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <AssemblyName>SAM</AssemblyName>
+    <RootNamespace>SAM.Launcher</RootNamespace>
+    <Version>1.13.1</Version>
+    <Product>Steam Achievement Manager</Product>
+    <AssemblyTitle>Steam Achievement Manager</AssemblyTitle>
+    <Description>Launcher for app\SAM.exe</Description>
+    <Company>Gibbed; WinUI 3 version</Company>
+    <Copyright>Copyright © Gibbed 2019</Copyright>
+    <ApplicationIcon>..\SAM.App\Assets\SAM.ico</ApplicationIcon>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>
